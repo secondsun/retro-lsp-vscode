@@ -1,0 +1,3 @@
+[submodule "language-65asm"]
+	path = language-65asm
+	url = https://github.com/MatthewCallis/language-65asm
