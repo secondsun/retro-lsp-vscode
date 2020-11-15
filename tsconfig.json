@@ -1,20 +1,20 @@
 {
 	"compilerOptions": {
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"noImplicitAny": true,
-		"noImplicitReturns": true,		
-		"target": "es6",
 		"module": "commonjs",
-		"moduleResolution": "node",
-		"rootDir": ".",
+		"target": "es2019",
+		"lib": ["ES2019"],
 		"outDir": "out",
-		"lib": [ "es2016" ],
+		"rootDir": "src",
 		"sourceMap": true
 	},
+	"include": [
+		"src"
+	],
 	"exclude": [
 		"node_modules",
-		"server",
-		"Scratch.ts"
+		".vscode-test"
+	],
+	"references": [
+		{ "path": "./client" },
 	]
 }
